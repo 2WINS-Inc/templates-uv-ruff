@@ -1,0 +1,47 @@
+{
+  "recommendations": [
+    // ----- Git -----
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    // ----- Markdown -----
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "bierner.markdown-mermaid",
+    // ----- Python -----
+    "ms-python.debugpy",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    // ----- Jupyter -----
+    "ms-toolsai.jupyter",
+    "ms-toolsai.jupyter-keymap",
+    "ms-toolsai.jupyter-renderers",
+    "ms-toolsai.vscode-jupyter-cell-tags",
+    "ms-toolsai.vscode-jupyter-slideshow",
+    // ----- Agents -----
+    "github.copilot",
+    "github.copilot-chat",
+    "saoudrizwan.claude-dev",
+    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    // ----- Docker -----
+    "ms-azuretools.vscode-containers",
+    // ----- Others -----
+    "usernamehw.errorlens",
+    "tamasfe.even-better-toml",
+    "esbenp.prettier-vscode",
+    // ----- Optional -----
+    "redhat.vscode-yaml",
+    "hediet.vscode-drawio",
+    "ms-vscode.live-server",
+    "ms-vscode.remote-explorer",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "monokai.theme-monokai-pro-vscode",
+    "svelte.svelte-vscode",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "aws-scripting-guy.cform",
+    "rust-lang.rust-analyzer"
+  ]
+}
