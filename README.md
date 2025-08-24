@@ -1,8 +1,8 @@
-# uv + Ruff + VSCode Template
+# uv + Ruff Template
 
 ## Prerequisites
 
-Install [uv](https://docs.astral.sh/uv/) and [VSCode](https://code.visualstudio.com/download) if you haven't already.
+Install [uv](https://docs.astral.sh/uv/) if you haven't already.
 
 For MacOS users, use the following command to install [uv](https://docs.astral.sh/uv/):
 
@@ -12,7 +12,24 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ## How to use this template?
 
-(TBD)
+Install the necessary dependencies and setup pre-commit hooks
+
+```shell
+uv sync
+uv run pre-commit install
+```
+
+Run sample application
+
+```shell
+PYTHONPATH=. uv run app --name World
+```
+
+Run tests
+
+```shell
+uv run pytest
+```
 
 ## Installing recommended VSCode extensions
 
